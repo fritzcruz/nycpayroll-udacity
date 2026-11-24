@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "factoryName": {
+            "value": "dffritzcruz4"
+        },
+        "ls_adls_nycpayroll_accountKey": {
+            "value": ""
+        },
+        "ls_sql_nycpayroll_connectionString": {
+            "value": ""
+        },
+        "ls_synapse_nycpayroll_password": {
+            "value": ""
+        },
+        "ls_adls_nycpayroll_properties_typeProperties_url": {
+            "value": "https://safritzcruz4.dfs.core.windows.net/"
+        },
+        "ls_synapse_nycpayroll_properties_typeProperties_server": {
+            "value": "synapsenycpayrollfritz4-ondemand.sql.azuresynapse.net"
+        },
+        "ls_synapse_nycpayroll_properties_typeProperties_database": {
+            "value": "udacity"
+        },
+        "ls_synapse_nycpayroll_properties_typeProperties_userName": {
+            "value": "sqladminuser"
+        },
+        "containerUri": {
+            "value": ""
+        },
+        "containerSasToken": {
+            "value": ""
+        }
+    }
+}
